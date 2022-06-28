@@ -1,15 +1,14 @@
 import React from 'react';
-
 import ViewWrapper from '../components/view-wrapper/view-wrapper';
 
-const BigProjects = () => {
+const About = () => {
     return (
-        <div className="container-big-projects">
+        <div className="container-about">
             <ViewWrapper>
-                Gros projets
+                <h1>A propos</h1>
             </ViewWrapper>
         </div>
     );
 };
 
-export default BigProjects;
+export default About;

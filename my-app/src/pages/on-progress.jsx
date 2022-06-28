@@ -1,9 +1,12 @@
 import React from 'react';
+import ViewWrapper from '../components/view-wrapper/view-wrapper';
 
 const OnProgress = () => {
     return (
         <div>
-            <h1>Toujours en cours</h1>
+            <ViewWrapper>
+                <h1>Toujours en cours</h1>
+            </ViewWrapper>
         </div>
     );
 };

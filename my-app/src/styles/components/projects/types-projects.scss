@@ -5,20 +5,19 @@
     section {
         width: 25%;
         text-align: center;
+        position: relative;
 
         &:hover {
             cursor: pointer;
         }
-    }
-    .big-project {
-        border: 1px solid black;
-    }
 
-    .soft-project {
-        border: 1px solid blue;
-    }
+        .layer {
+            position: absolute;
+            z-index: -1;
 
-    .on-working {
-        border: 1px solid red;
+            img {
+                width: 100%;
+            }
+        }
     }
 }  

@@ -7,10 +7,8 @@ const Home = () => {
     return (
         <div className="container-home">
             <ViewWrapper>
-                <h1>Portefolio</h1>
-                <TypesProjects
-                    myEvent={() => {console.log("yo")}}
-                />           
+                <h1>Développeur Web</h1>
+                <TypesProjects/>           
             </ViewWrapper>
         </div>
     );

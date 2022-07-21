@@ -1,43 +1,42 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+import OneNav from '../navigation/one-nav';
+
 import naturePicture from "../../assets/nature-chill.png";
 import trainPicture from "../../assets/train-chill.png";
 import townDestroy from "../../assets/ville-en-ruine.jpg";
 
-const TypesProjects = ({ myEvent }) => {
+const TypesProjects = () => {
     
     return (
         <div className="container-projects">
             <section className="big-project">
                 <div className="layer">
-                    <NavLink
-                    to="/big-projects"
-                    >
-                        <img src={naturePicture} alt="Panorama nature" />
-                    </NavLink>
+                    <OneNav
+                    destination={"/big-projects"}
+                    text={<img src={naturePicture} alt="Panorama nature"/>} 
+                    />
                 </div>
                 <p>Gros projets</p>
             </section>
 
             <section className="soft-project">
                 <div className="layer">
-                    <NavLink
-                    to="/soft-projects"
-                    >
-                        <img src={townDestroy} alt="Artwork ganja white night" />
-                    </NavLink>
+                    <OneNav
+                    destination={"/soft-projects"} 
+                    text={<img src={townDestroy} alt="fille qui regarde au loin une ville détruite"/>}
+                    />
                 </div>
                 <p>Petits projets perso</p>
             </section>
 
             <section className="on-working">
                 <div className="layer">
-                    <NavLink
-                    to="/on-working"
-                    >
-                        <img src={trainPicture} alt="Fille qui attend que le train passe" className="picture-to-rework-dimension"/>
-                    </NavLink>
+                   <OneNav 
+                   destination={"/on-working"}
+                   text={<img src={trainPicture} alt="Fille qui attend que le train passe" />} 
+                   /> 
                 </div>
                 <p>Projets en cours</p>
             </section>

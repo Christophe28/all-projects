@@ -8,6 +8,7 @@ const Home = () => {
         <div className="container-home">
             <ViewWrapper>
                 <h1>Développeur Web</h1>
+                <h1>Deploiement</h1>
                 <TypesProjects/>       
             </ViewWrapper>
         </div>

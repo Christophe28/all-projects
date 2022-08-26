@@ -8,6 +8,8 @@ import BigProjects from './pages/big-projects';
 import SoftProjects from './pages/soft-projects';
 import OnProgress from './pages/on-progress';
 
+import './styles/index.scss';
+
 const App = () => {
   return (
     <Routes>

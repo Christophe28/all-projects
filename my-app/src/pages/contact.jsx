@@ -5,7 +5,13 @@ const Contact = () => {
     return (
         <div className="container-contact">
             <ViewWrapper>
-                <h1>Contact</h1>
+                <form>
+                    <input type="text" placeholder="Nom"/>
+                    <input type="text" placeholder="Prénom"/>
+                    <input type="text" placeholder="Nom de l'entreprise" />
+                    <input type="email" placeholder="Mail" />
+                    <input type="submit" />
+                </form>
             </ViewWrapper>
         </div>
     );

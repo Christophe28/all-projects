@@ -1,5 +1,4 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 
 import TypesProjects from '../components/projects/types-project';
 import ViewWrapper from '../components/view-wrapper/view-wrapper';

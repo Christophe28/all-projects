@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/all-projects/static/css/main.62925be4.css",
-    "main.js": "/all-projects/static/js/main.9ad86706.js",
+    "main.js": "/all-projects/static/js/main.d94939fa.js",
     "static/media/train-chill.png": "/all-projects/static/media/train-chill.4d294ac228f6af3a924b.png",
     "static/media/nature-chill.png": "/all-projects/static/media/nature-chill.7b559b6ac7ea9f1ff518.png",
     "static/media/ville-en-ruine.jpg": "/all-projects/static/media/ville-en-ruine.a486dd3391d74c74f176.jpg",
     "index.html": "/all-projects/index.html",
     "main.62925be4.css.map": "/all-projects/static/css/main.62925be4.css.map",
-    "main.9ad86706.js.map": "/all-projects/static/js/main.9ad86706.js.map"
+    "main.d94939fa.js.map": "/all-projects/static/js/main.d94939fa.js.map"
   },
   "entrypoints": [
     "static/css/main.62925be4.css",
-    "static/js/main.9ad86706.js"
+    "static/js/main.d94939fa.js"
   ]
 }

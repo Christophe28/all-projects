@@ -6,9 +6,7 @@ const OnProgress = () => {
         <div>
             <ViewWrapper>
                 <h1>Toujours en cours</h1>
-                <a href="//christophe28.github.io/randomType">
-                    randomType Pokémon
-                </a>
+
             </ViewWrapper>
         </div>
     );

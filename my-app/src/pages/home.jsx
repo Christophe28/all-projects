@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 import TypesProjects from '../components/projects/types-project';
 import ViewWrapper from '../components/view-wrapper/view-wrapper';
@@ -8,7 +9,7 @@ const Home = () => {
         <div className="container-home">
             <ViewWrapper>
                 <h1>Développeur Web</h1>
-                <TypesProjects/>           
+                <TypesProjects/>       
             </ViewWrapper>
         </div>
     );

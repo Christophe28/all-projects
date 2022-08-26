@@ -12,16 +12,13 @@ const Navigation = () => {
         }
         return navStyle
     }
-    const navStyle = {
-        backgroundColor: "blue"
-    }
 
     return (
         <div className="container-navigation">
             <OneNav 
             myClass={"navigation-a"}
             destination={"/"}
-            text={"Acceuil"}
+            text={"accueil"}
             style={({ isActive }) => activeStyle(isActive)}
             />
 

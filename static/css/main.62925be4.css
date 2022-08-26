@@ -1,0 +1,2 @@
+body .container-home h1{text-align:center}.container-navigation{display:flex}.container-navigation .navigation-a{margin-right:1rem}.container-projects{display:flex;justify-content:space-around}.container-projects section{position:relative;text-align:center;width:25%}.container-projects section:hover{cursor:pointer}.container-projects section .layer{position:absolute;z-index:-1}.container-projects section .layer img{width:100%}
+/*# sourceMappingURL=main.62925be4.css.map*/

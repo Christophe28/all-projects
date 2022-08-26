@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.62925be4.css",
+    "main.js": "/static/js/main.e3f37a8a.js",
+    "static/media/train-chill.png": "/static/media/train-chill.4d294ac228f6af3a924b.png",
+    "static/media/nature-chill.png": "/static/media/nature-chill.7b559b6ac7ea9f1ff518.png",
+    "static/media/ville-en-ruine.jpg": "/static/media/ville-en-ruine.a486dd3391d74c74f176.jpg",
+    "index.html": "/index.html",
+    "main.62925be4.css.map": "/static/css/main.62925be4.css.map",
+    "main.e3f37a8a.js.map": "/static/js/main.e3f37a8a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62925be4.css",
+    "static/js/main.e3f37a8a.js"
+  ]
+}

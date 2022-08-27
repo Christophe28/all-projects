@@ -2,6 +2,11 @@ import React from 'react';
 
 import OneNav from './one-nav';
 
+import logoHome from '../../assets/home-32px.png';
+import logoLetter from '../../assets/letter-32px.png';
+import logoUser from '../../assets/user.png';
+import logoSuitcase from '../../assets/suitcase-32px.png';
+
 const Navigation = () => {
 
     const activeStyle = (isActive) => {
@@ -21,6 +26,8 @@ const Navigation = () => {
                             myClass={"navigation-a"}
                             destination={"/"}
                             style={({ isActive }) => activeStyle(isActive)}
+                            navIcon={logoHome}
+                            description={"logo maison"}
                         />
                     </li>
                     <li className="li-about">
@@ -28,6 +35,8 @@ const Navigation = () => {
                             myClass={"navigation-a"}
                             destination={"/about"}
                             style={({ isActive }) => activeStyle(isActive)}
+                            navIcon={logoLetter}
+                            description={"logo à propos"}
                         />
                     </li>
                     <li className="li-contact">
@@ -35,6 +44,8 @@ const Navigation = () => {
                             myClass={"navigation-a"}
                             destination={"/contact"}
                             style={({ isActive }) => activeStyle(isActive)}
+                            navIcon={logoUser}
+                            description={"logo contact"}
                         />
                     </li>    
                     <li className="li-projects">
@@ -42,6 +53,8 @@ const Navigation = () => {
                             myClass={"navigation)a"}
                             destination={"/contact"} //Ne doit pas rester à contact
                             style={({ isActive }) => activeStyle(isActive)} 
+                            navIcon={logoSuitcase}
+                            description={"logo travail"}
                         />
                     </li>       
                 </ul>

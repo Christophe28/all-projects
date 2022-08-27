@@ -34,9 +34,21 @@ body {
                 button {
                     background-color: $color-1;
                     color: $color-2;
+                    height: 4rem;
+                    width: 20rem;
+                    border-radius: 40px;
+                    font-size: 2rem;
+                    border: none;
+                    -webkit-box-shadow: 0px 3px 15px 1px rgba(0,0,0,0.59); 
+                    box-shadow: 0px 3px 15px 1px rgba(0,0,0,0.59);
 
                     &:hover {
                         cursor: pointer;
+                    }
+                    &:active {
+                        -webkit-box-shadow: 0px 3px 15px 1px white; 
+                        box-shadow: 0px 3px 15px 1px white;
+    
                     }
                 }
             }

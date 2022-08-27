@@ -6,25 +6,22 @@
     section {
         position: absolute;
         top: 50%;
-        // bottom: 50%;
         transform: translate(-50%, -50%);
         background-color: $color-1;
         border-radius: 20px;
         width: 45px;    
+
         ul {
             list-style-type: none;
-
-
-            .navigation-a {
-                margin-right: 1rem;
-            }
+            padding: 6px;
 
             li {
                 margin-top: 35px;
-                margin-left: 5px;
 
-                &:hover {
-                    cursor: pointer;
+                img {
+                    &:hover {
+                        cursor: pointer;
+                    }
                 }
             }
         }

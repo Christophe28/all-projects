@@ -1,6 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+import homeList from "../../assets/home-32px.png";
+
 const OneNav = ({myClass, destination, text, style}) => {
     return (
         <>
@@ -9,7 +11,7 @@ const OneNav = ({myClass, destination, text, style}) => {
             to={destination}
             style={style}
             >
-                {text}
+                <img src={homeList} alt="" />    
             </NavLink>
         </>
     );

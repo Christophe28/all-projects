@@ -14,26 +14,38 @@ const Navigation = () => {
 
     return (
         <div className="container-navigation">
-            <OneNav 
-            myClass={"navigation-a"}
-            destination={"/"}
-            text={"accueil"}
-            style={({ isActive }) => activeStyle(isActive)}
-            />
-
-            <OneNav 
-            myClass={"navigation-a"}
-            destination={"/about"}
-            text={"à propos"}
-            style={({ isActive }) => activeStyle(isActive)}
-            />
-
-            <OneNav 
-            myClass={"navigation-a"}
-            destination={"/contact"}
-            text={"Contact"}
-            style={({ isActive }) => activeStyle(isActive)}
-            />
+            <section>
+                <ul>
+                    <li className="li-home">
+                        <OneNav 
+                            myClass={"navigation-a"}
+                            destination={"/"}
+                            style={({ isActive }) => activeStyle(isActive)}
+                        />
+                    </li>
+                    <li className="li-about">
+                        <OneNav 
+                            myClass={"navigation-a"}
+                            destination={"/about"}
+                            style={({ isActive }) => activeStyle(isActive)}
+                        />
+                    </li>
+                    <li className="li-contact">
+                        <OneNav 
+                            myClass={"navigation-a"}
+                            destination={"/contact"}
+                            style={({ isActive }) => activeStyle(isActive)}
+                        />
+                    </li>    
+                    <li className="li-projects">
+                        <OneNav
+                            myClass={"navigation)a"}
+                            destination={"/contact"} //Ne doit pas rester à contact
+                            style={({ isActive }) => activeStyle(isActive)} 
+                        />
+                    </li>       
+                </ul>
+            </section>
         </div>
     );
 };

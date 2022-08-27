@@ -2,8 +2,50 @@ body {
 
     .container-home {
 
-        h1 {
-            text-align: center;
+        .container-sides {
+            display: flex;
+
+            .container-left-side {
+                padding: 100px;
+                margin-left: 200px;
+
+                h1 {
+                    font-size: 3rem;
+                }
+
+                .title-paragraph {
+                    font-size: 3rem;
+                    height: 1rem;
+                }
+
+                .my-name {
+                    color: $color-1;
+                }
+
+                strong {
+                    background-color: $color-1;
+                    letter-spacing: 10px;
+                }
+
+                p {
+                    letter-spacing: 2px;
+                }
+
+                button {
+                    background-color: $color-1;
+                    color: $color-2;
+
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+            }
+
+            .container-right-side {
+                img {
+                    height: 100vh;
+                }
+            }
         }
     }
 }

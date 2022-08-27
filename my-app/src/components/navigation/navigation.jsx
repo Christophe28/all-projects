@@ -35,7 +35,7 @@ const Navigation = () => {
                             myClass={"navigation-a"}
                             destination={"/about"}
                             style={({ isActive }) => activeStyle(isActive)}
-                            navIcon={logoLetter}
+                            navIcon={logoUser}
                             description={"logo à propos"}
                         />
                     </li>
@@ -44,14 +44,14 @@ const Navigation = () => {
                             myClass={"navigation-a"}
                             destination={"/contact"}
                             style={({ isActive }) => activeStyle(isActive)}
-                            navIcon={logoUser}
+                            navIcon={logoLetter}
                             description={"logo contact"}
                         />
                     </li>    
                     <li className="li-projects">
                         <OneNav
                             myClass={"navigation)a"}
-                            destination={"/contact"} //Ne doit pas rester à contact
+                            destination={"/projects"} //Ne doit pas rester à contact
                             style={({ isActive }) => activeStyle(isActive)} 
                             navIcon={logoSuitcase}
                             description={"logo travail"}

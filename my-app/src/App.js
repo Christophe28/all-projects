@@ -10,6 +10,7 @@ import OnProgress from './pages/on-progress';
 
 import './styles/index.scss';
 import Error404 from './pages/Error404';
+import AllProjects from './pages/All-projects';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Route exact path="/big-projects" element={<BigProjects />} />
       <Route exact path="/soft-projects" element={<SoftProjects />} />
       <Route exact path="/on-working" element={<OnProgress />} />
+      <Route exact path="/projects" element={<AllProjects />} />
       <Route path="*" element={<Error404 />} />
     </Routes>
   );

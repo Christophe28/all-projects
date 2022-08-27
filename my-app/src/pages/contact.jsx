@@ -2,6 +2,7 @@ import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 
 import ViewWrapper from '../components/view-wrapper/view-wrapper';
+import BreadcrumbTrail from '../components/view-wrapper/breadcrumb-trail';
 
 const Contact = () => {
 
@@ -22,14 +23,16 @@ const Contact = () => {
     return (
         <div className="container-contact">
             <ViewWrapper>
-                <form ref={form} onSubmit={sendEmail}>
-                    <input type="text" name="contact_name" placeholder="Nom"/>
-                    <input type="text" name="contact_surname" placeholder="Prénom"/>
-                    <input type="text" name="contact_company_name" placeholder="Nom de l'entreprise" />
-                    <input type="email" name="contact_email" placeholder="Mail" />
-                    <input type="textarea" name="contact_attention" placeholder="Information complémentaire" />
-                    <input type="submit" />
-                </form>
+                <BreadcrumbTrail>
+                    <form ref={form} onSubmit={sendEmail}>
+                        <input type="text" name="contact_name" placeholder="Nom"/>
+                        <input type="text" name="contact_surname" placeholder="Prénom"/>
+                        <input type="text" name="contact_company_name" placeholder="Nom de l'entreprise" />
+                        <input type="email" name="contact_email" placeholder="Mail" />
+                        <input type="textarea" name="contact_attention" placeholder="Information complémentaire" />
+                        <input type="submit" />
+                    </form>
+                </BreadcrumbTrail>
             </ViewWrapper>
         </div>
     );

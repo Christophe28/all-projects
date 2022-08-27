@@ -3,13 +3,13 @@ import React from 'react';
 import BreadcrumbTrail from '../components/view-wrapper/breadcrumb-trail';
 import ViewWrapper from '../components/view-wrapper/view-wrapper';
 
-const About = () => {
+const AllProjects = () => {
     return (
-        <div className="container-about">
+        <div>
             <ViewWrapper>
                 <BreadcrumbTrail>
                     <section>
-                        <h1>About Me</h1>
+                        <h1 style={{textAlign: "center"}}>Mes projets</h1>
                     </section>
                 </BreadcrumbTrail>
             </ViewWrapper>
@@ -17,4 +17,4 @@ const About = () => {
     );
 };
 
-export default About;
+export default AllProjects;

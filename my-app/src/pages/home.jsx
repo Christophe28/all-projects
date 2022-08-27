@@ -1,9 +1,9 @@
 import React from 'react';
 
+import ViewWrapper from '../components/view-wrapper/view-wrapper';
 import LeftSide from '../components/home/Left-side';
 import RightSide from '../components/home/right-side';
 // import TypesProjects from '../components/projects/types-project';
-import ViewWrapper from '../components/view-wrapper/view-wrapper';
 
 const Home = () => {
     return (
@@ -12,8 +12,7 @@ const Home = () => {
                 <div className="container-sides">
                     <LeftSide />
                     <RightSide />
-                </div>
-                {/* <TypesProjects/>    */}        
+                </div>  
             </ViewWrapper>
         </div>
     );

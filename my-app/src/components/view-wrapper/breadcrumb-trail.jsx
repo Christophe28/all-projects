@@ -6,7 +6,7 @@ import bg from "../../assets/bg_lol.jpeg";
 const BreadcrumbTrail = ({ children }) => {
     const activeStyle = (isActive) => {
         const navStyle = {
-            color: isActive ? "#545e6f" : "fff",
+            color: isActive ? "white" : "fff",
             textDecoration: isActive ? "" : "none"
         }
         return navStyle

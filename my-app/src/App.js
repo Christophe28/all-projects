@@ -12,6 +12,7 @@ import './styles/index.scss';
 import Error404 from './pages/Error404';
 import AllProjects from './pages/All-projects';
 
+
 const App = () => {
   return (
     <Routes>

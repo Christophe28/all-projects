@@ -10,3 +10,22 @@ export const projects = [
         picture: ""
     }
 ]
+
+export const hardSkills = [
+    {
+        name: "React",
+        picture: "",
+    },
+    {
+        name: "Vanilla",
+        picture: "",
+    },
+    {
+        name: "Sass",
+        picture: "",
+    },
+    {
+        name: "Php",
+        picture: "",
+    }
+]

@@ -1,18 +1,29 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 import ViewWrapper from '../components/view-wrapper/view-wrapper';
-import LeftSide from '../components/home/Left-side';
-import RightSide from '../components/home/right-side';
-// import TypesProjects from '../components/projects/types-project';
+
+import TwoSide from '../components/home/Two-side';
+import About from './about';
+import Contact from './contact';
+import AllProjects from './All-projects';
 
 const Home = () => {
+    const [currentIndex, setIndex] = useState(0)
+    const [components, setComponents] = useState([
+        <TwoSide 
+            setState={setIndex}
+            currentState={currentIndex
+            }
+        />,
+        <About />,
+        <Contact />,
+        <AllProjects />
+    ])
+
     return (
         <div className="container-home">
             <ViewWrapper>
-                <div className="container-sides">
-                    <LeftSide />
-                    <RightSide />
-                </div>  
+                {components[currentIndex]}
             </ViewWrapper>
         </div>
     );

@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const OneNav = ({ destination, style, navIconActive, navIcon, description}) => {
-
+    
     return (
         <>
             <NavLink

@@ -1,10 +1,12 @@
 body {
+    padding: 0px;
+    margin: 0px;
 
     .container-home {
 
         .container-sides {
             display: flex;
-
+            
             .container-left-side {
                 padding: 100px;
                 margin-left: 200px;
@@ -55,7 +57,7 @@ body {
 
             .container-right-side {
                 img {
-                    height: 100vh;
+                    height: 976px;
                 }
             }
         }

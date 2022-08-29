@@ -1,15 +1,22 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-const OneNav = ({myClass, destination, style, navIcon, description}) => {
+const OneNav = ({ destination, style, navIconActive, navIcon, description}) => {
+
     return (
         <>
             <NavLink
-            className={myClass}
             to={destination}
             style={style}
             >
-                <img src={navIcon} alt={description} />    
+                {({isActive}) => {
+                    if(isActive === true) {
+                        return <img src={navIconActive} alt={description} />
+                    }
+                    if(isActive === false) {
+                        return <img src={navIcon} alt={description} />
+                    }
+                }}
             </NavLink>
         </>
     );

@@ -24,7 +24,6 @@ const BreadcrumbTrail = ({ children }) => {
                     <li>
                         <NavLink
                             to={"/"}
-                            className={"breadcrumb-list"}
                             style={({isActive}) => activeStyle(isActive)}
                             >
                             HOME
@@ -34,7 +33,6 @@ const BreadcrumbTrail = ({ children }) => {
                     <li>
                         <NavLink
                             to={"/about"}
-                            className={"breadcrumb-list"}
                             style={({isActive}) => activeStyle(isActive)}
                         >
                             ABOUT ME
@@ -45,7 +43,6 @@ const BreadcrumbTrail = ({ children }) => {
                     <li>
                         <NavLink
                             to={"/contact"}
-                            className={"breadcrumb-list"}
                             style={({isActive}) => activeStyle(isActive)}
                             >
                             CONTACT
@@ -55,7 +52,6 @@ const BreadcrumbTrail = ({ children }) => {
                     <li>
                         <NavLink
                             to={"/projects"}
-                            className={"breadcrumb-list"}
                             style={({isActive}) => activeStyle(isActive)}
                             >
                             PROJECTS

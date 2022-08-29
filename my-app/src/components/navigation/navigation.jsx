@@ -3,19 +3,15 @@ import React from 'react';
 import OneNav from './one-nav';
 
 import logoHome from '../../assets/home-32px.png';
+import logoHomeActive from '../../assets/home-white-32px.png';
 import logoLetter from '../../assets/letter-32px.png';
+import logoLetterActive from '../../assets/letter-white-32px.png';
 import logoUser from '../../assets/user.png';
-import logoSuitcase from '../../assets/suitcase-32px.png';
+import logoUserActive from '../../assets/user-white-32px.png';
+import logoSuitcase from '../../assets/briefcase-black-32px.png';
+import logoSuitcaseActive from '../../assets/briefcase -white-32px.png';
 
 const Navigation = () => {
-
-    const activeStyle = (isActive) => {
-        const navStyle = {
-            color: isActive ? "fff" : "#545e6f",
-            textDecoration: isActive ? "" : "none"
-        }
-        return navStyle
-    }
 
     return (
         <div className="container-navigation">
@@ -23,37 +19,33 @@ const Navigation = () => {
                 <ul>
                     <li className="li-home">
                         <OneNav 
-                            myClass={"navigation-a"}
                             destination={"/"}
-                            style={({ isActive }) => activeStyle(isActive)}
                             navIcon={logoHome}
+                            navIconActive={logoHomeActive}
                             description={"logo maison"}
                         />
                     </li>
                     <li className="li-about">
                         <OneNav 
-                            myClass={"navigation-a"}
                             destination={"/about"}
-                            style={({ isActive }) => activeStyle(isActive)}
                             navIcon={logoUser}
+                            navIconActive={logoUserActive}
                             description={"logo à propos"}
                         />
                     </li>
                     <li className="li-contact">
                         <OneNav 
-                            myClass={"navigation-a"}
                             destination={"/contact"}
-                            style={({ isActive }) => activeStyle(isActive)}
                             navIcon={logoLetter}
+                            navIconActive={logoLetterActive}
                             description={"logo contact"}
                         />
                     </li>    
                     <li className="li-projects">
                         <OneNav
-                            myClass={"navigation)a"}
-                            destination={"/projects"} //Ne doit pas rester à contact
-                            style={({ isActive }) => activeStyle(isActive)} 
+                            destination={"/projects"}
                             navIcon={logoSuitcase}
+                            navIconActive={logoSuitcaseActive}
                             description={"logo travail"}
                         />
                     </li>       

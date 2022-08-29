@@ -19,19 +19,21 @@ const Contact = () => {
         }
         )
     }
-
+    
     return (
         <div className="container-contact">
             <ViewWrapper>
                 <BreadcrumbTrail>
-                    <form ref={form} onSubmit={sendEmail}>
-                        <input type="text" name="contact_name" placeholder="Nom"/>
-                        <input type="text" name="contact_surname" placeholder="Prénom"/>
-                        <input type="text" name="contact_company_name" placeholder="Nom de l'entreprise" />
-                        <input type="email" name="contact_email" placeholder="Mail" />
-                        <input type="textarea" name="contact_attention" placeholder="Information complémentaire" />
-                        <input type="submit" />
-                    </form>
+                    <div className="container-form">
+                        <form ref={form} onSubmit={sendEmail}>
+                            <input type="text" name="contact_name" placeholder="Nom"/>
+                            <input type="text" name="contact_surname" placeholder="Prénom"/>
+                            <input type="text" name="contact_company_name" placeholder="Nom de l'entreprise" />
+                            <input type="email" name="contact_email" placeholder="Mail" />
+                            <input type="textarea" name="contact_attention" placeholder="Information complémentaire" />
+                            <input type="submit" className="submit-form" />
+                        </form>
+                    </div>
                 </BreadcrumbTrail>
             </ViewWrapper>
         </div>

@@ -1,13 +1,18 @@
+import bgRandomType from "../assets/random-type-bg.jpg";
+import bgConfigurator from "../assets/configurator-bg.jpg";
+
 export const projects = [
     {
         name: "Configurateur Inseetu",
         type: "bigProject",
-        picture: ""
+        url: "//christophe28.github.io/configurator",
+        picture: bgConfigurator
     },
     {
         name: "Randomiser Pokémon",
         type: "softProject",
-        picture: ""
+        url: "//christophe28.github.io/randomType",
+        picture: bgRandomType
     }
 ]
 

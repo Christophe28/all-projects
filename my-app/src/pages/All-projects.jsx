@@ -10,14 +10,16 @@ const AllProjects = () => {
         <div>
             <ViewWrapper>
                 <BreadcrumbTrail>
-                    <section>
+                    <section className="container-my-projects">
                         <h1 style={{textAlign: "center"}}>Mes projets</h1>
-
                         {
                             projects.map((project) => (
                                 <section>
-                                    <a href={project.url}>{project.name}</a>
-                                    <img src={project.picture} alt="my-projects" style={{width: "300px"}} />
+                                    <h3>{project.name}</h3>
+                                    <img src={project.picture} alt="my-projects" />
+                                    <a href={project.url}>
+                                        <p>{project.description}</p>
+                                    </a>
                                 </section>
                             ))
                         }

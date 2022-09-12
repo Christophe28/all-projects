@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-import bg from "../../assets/bg_lol.jpeg";
+import pictureMe from "../../assets/portfolio-picture-me.jpeg";
 
 const BreadcrumbTrail = ({ children }) => {
     const activeStyle = (isActive) => {
@@ -15,7 +15,7 @@ const BreadcrumbTrail = ({ children }) => {
     return (
         <div className="container-columns">
             <div className="container-breadcrumb">
-                <img src={bg} alt="Moi" />
+                <img src={pictureMe} alt="Moi" />
                 <ul>
                     <section className="round-full-top"></section>  
                     <div>

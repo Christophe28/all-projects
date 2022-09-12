@@ -1,11 +1,12 @@
 import React from 'react';
 
-import bg from "../../assets/bg_lol.jpeg";
+import pictureMe from "../../assets/portfolio-picture-me.jpeg";
 
 const RightSide = () => {
+
     return (
         <div className="container-right-side">
-            <img src={bg} alt="Sisi c'est moi je te jure" />
+            <img src={pictureMe} alt="La personne à qui appartient le portefolio" />
         </div>
     );
 };

@@ -1,5 +1,9 @@
 import bgRandomType from "../assets/random-type-bg.jpg";
 import bgConfigurator from "../assets/configurator-bg.jpg";
+import reactPicture from "../assets/icon-react.png";
+import vanillaPicture from "../assets/icon-javascript.png";
+import sassPicture from "../assets/icon-sass.png";
+import phpPicture from "../assets/icon-php.png";
 
 export const projects = [
     {
@@ -21,18 +25,18 @@ export const projects = [
 export const hardSkills = [
     {
         name: "React",
-        picture: "",
+        picture: reactPicture,
     },
     {
         name: "Vanilla",
-        picture: "",
+        picture: vanillaPicture,
     },
     {
         name: "Sass",
-        picture: "",
+        picture: sassPicture,
     },
     {
         name: "Php",
-        picture: "",
+        picture: phpPicture,
     }
 ]

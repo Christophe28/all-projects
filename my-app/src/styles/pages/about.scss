@@ -15,6 +15,7 @@
         font-size: 2rem;
         margin-left: 16rem;
         width: 65%;
+        text-align: center;
 
         strong {
             color: $color-3;
@@ -24,9 +25,8 @@
 
     .all-about-me {
         width: 65%;
-        text-align: justify;
+        text-align: center;
         font-size: 1.3rem;
-        // margin-left: 16rem;
     }
     
     section {
@@ -38,7 +38,6 @@
         div {
             vertical-align: center;
             border: 1px solid $color-6;
-            background-color: black;
             width: 40%;
             height: 8rem;
             color: $color-5;
@@ -50,6 +49,10 @@
                 font-size: 3rem;
                 font-weight: bolder;
                 color: $color-1;
+            }
+
+            img {
+                width: 120px;
             }
         }
     }

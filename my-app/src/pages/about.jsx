@@ -6,7 +6,7 @@ import BreadcrumbTrail from '../components/view-wrapper/breadcrumb-trail';
 import { hardSkills } from '../config/config';
 
 const About = () => {
-    console.log(hardSkills);
+
     return (
         <div className="container-about">
             <ViewWrapper>
@@ -17,8 +17,8 @@ const About = () => {
                     <section>
                         {
                             hardSkills.map((hardSkill) => (
-                                <div className="hardSkill name">
-                                    <p>{hardSkill.name}</p>
+                                <div className="hardSkill name" key={hardSkill.name}>
+                                    <img src={hardSkill.picture} alt={hardSkill.name} />
                                 </div>
                             ))
                         }

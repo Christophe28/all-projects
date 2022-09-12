@@ -1,6 +1,4 @@
 .container-my-projects {
-    display: flex;
-    flex-direction: column;
 
     h1 {
         text-align: center;
@@ -14,7 +12,6 @@
 }
 
 .img-content {
-    position: relative;
     text-align: left;
     margin: auto;
     margin-bottom: 85px;
@@ -102,3 +99,52 @@
         }
     }
 }
+
+// .container-carousel {
+
+//     h1 {
+//         text-align: center;
+//         font-size: 6rem;
+//         font-weight: bolder;
+//         border: 4px solid $color-5;
+//         width: 80%;
+//         margin-left: 6rem;
+//         letter-spacing: 2rem;
+//     }
+
+//     .img-content-test {
+//         display: flex;
+//         justify-content: center;
+
+//         .img-test {
+//             width: 30%;
+//         }
+//     }
+
+//     .view-project-test {
+//         margin-top: 40px;
+//         display: flex;
+//         justify-content: center;
+//         a {
+//             display: flex;
+//             justify-content: center;
+//             align-items: center;
+//             width: 120px;
+//             height: 55px;
+//             text-decoration: none;
+//             border: 1px solid black;
+//             border-radius: 50px;
+//             font-size: 1.2rem;
+//             background-color: $color-7;
+//             color: $color-2;
+//             border: none;
+//             cursor: pointer;
+
+//             &:hover {
+//                 background-color: $color-2;
+//                 color: $color-7;
+//                 transition: 0.4s;
+//             }
+//         }
+//     }
+// }

@@ -8,6 +8,7 @@ import Contact from './pages/contact';
 import './styles/index.scss';
 import Error404 from './pages/Error404';
 import AllProjects from './pages/All-projects';
+import MyCarousel from './pages/My-carousel';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Route exact path="/about" element={<About />} />
       <Route exact path="/contact" element={<Contact />} />
       <Route exact path="/projects" element={<AllProjects />} />
+      <Route exact path="/carousel" element={<MyCarousel />} />
       <Route path="*" element={<Error404 />} />
     </Routes>
   );

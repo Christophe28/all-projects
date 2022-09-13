@@ -31,6 +31,7 @@
             div {
                 display: flex;
                 justify-content: center;
+
                 .all-purpose-bar-top {
                     height: 55px;
                     border: 1px solid black;
@@ -65,7 +66,7 @@
 
         .container-breadcrumb-children {
             grid-area: ".container-breadcrumb-children";
-
+            
             h1 {
                 text-align: center;
             }

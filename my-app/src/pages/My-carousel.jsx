@@ -9,14 +9,14 @@ const MyCarousel = () => {
         <div className="container-carousel">
             <Carousel 
                 autoPlay 
-                interval={6000} 
+                interval={3000} 
                 infiniteLoop 
                 thumbWidth={120} 
                 showIndicators={false} 
                 showStatus={false}
             >
                 {
-                    projects.map((project, index) => (
+                    projects.map((project) => (
                         <div className="my-carousel" key={project.name}>
                             <img src={project.picture} className="img-carousel" alt="projects" />
                             <div className="overlay">

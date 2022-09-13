@@ -6,7 +6,7 @@ import ViewWrapper from '../components/view-wrapper/view-wrapper';
 import MyCarousel from './My-carousel';
 
 const AllProjects = () => {
-
+    
     return (
         <div>
             <ViewWrapper>

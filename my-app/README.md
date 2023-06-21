@@ -1,17 +1,17 @@
 # PORTFOLIO
 
-Comme son nom l'indique ceci est mon portfolio. Je me suis inspiré d'un modèle existant trouvé sur canvas.
+As the name suggests, this is my portfolio. I took inspiration from an existing template found on Canvas.
 
-# Technologie
+# Technology
 ![React](./mdPicture/physics.png)
 
 ## Description
 
-Portfolio destiné à présenter mes projets. Le projet fu mis en pause lors du début de ma formation en tant que Dévelopeur front-end à Technocité Hornu. Depuis il doit être remis au frais.
+A portfolio intended to showcase my projects. The project was put on hold at the beginning of my front-end developer training at Technocité Hornu. Since then, it needs to be revamped.
 
 ## How to see it ?
 
-Il suffit pour cela d'aller sur le site [https://christophe28.github.io/all-projects/]
+Simply visit the website [https://christophe28.github.io/all-projects/].
 
 ## Project Structure
 

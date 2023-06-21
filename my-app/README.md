@@ -3,7 +3,7 @@
 Comme son nom l'indique ceci est mon portfolio. Je me suis inspiré d'un modèle existant trouvé sur canvas.
 
 # Technologie
-![React](./mdPicture/icon-react.jpg)
+![React](./mdPicture/physics.png)
 
 ## Description
 

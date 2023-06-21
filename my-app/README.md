@@ -3,7 +3,7 @@
 Comme son nom l'indique ceci est mon portfolio. Je me suis inspiré d'un modèle existant trouvé sur canvas.
 
 # Technologie
-![React](./mdPicture/physics.png)
+![React](./src/assets/random-type-bg.jpg)
 
 ## Description
 

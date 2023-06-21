@@ -43,7 +43,4 @@ project
 
 ## Authors
 
-- Célestine - UI/UX Designer
-- Christophe Buffe (www.linkedin.com/in/christophe-buffe) - Lead Developer
-- Sandrine - Front-End Developer
-- Veasna - Front-End Developer
+- Christophe Buffe (www.linkedin.com/in/christophe-buffe)
